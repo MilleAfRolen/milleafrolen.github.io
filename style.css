@@ -1,6 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
 h1 {
     text-align: center
 }
-body {
-    background-color: lightblue;
+#github {
+    background-color: #880000;
+    color: black;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+}
+body { 
+    background:
+        linear-gradient(45deg, rgb(75, 126, 223), transparent),
+        repeating-linear-gradient(45deg, rgba(24, 102, 190, 0.5) 0%, 
+        rgba(24, 102, 190, 0.5), 5%, transparent 5%, transparent 10%, rgba(24, 102, 190, 0.5) 10%, rgba(0, 0, 0, 0.5) 11%, transparent 11%, transparent 13%),
+        rgb(126, 150, 255) repeating-linear-gradient(-45deg, rgba(24, 102, 190, 0.5) 0px, rgba(24, 102, 190, 0.5) 30px, transparent 30px, transparent 45px)
+
   }
