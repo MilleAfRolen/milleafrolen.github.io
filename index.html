@@ -8,66 +8,184 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/index.css">
-        <title>
-            E-portfolio
-        </title>
+        <title>E-portfolio</title>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="table">
-                <div class="list">
-                    <ul class="navbar">
-                        <li><a class="current" href="index.html"> Home </a></li>
-                        <li><a href="skills.html"> Skills </a></li>
-                        <li><a href="experience.html"> Experience </a></li>
-                        <li><a href="about.html"> About </a></li>
-                        <li><a href="contact.html"> Contact </a></li>
+        <section id="about">
+            <nav>
+                <div class="logo">Mille af Rolén</div>
+                <ul class="navbar">
+                    <li>
+                        <a href="" class="
+                        nav-link
+                        link-hover
+                        link-hover-black
+                        ">Languages</a>
+                    </li>
+                    <li>
+                        <a href="" class="
+                        nav-link
+                        link-hover
+                        link-hover-black
+                        ">Projects</a>
+                    </li>
+                    <li>
+                        <a href="" class="
+                        nav-link
+                        nav-link-primary
+                        ">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="wrapper">
+                <div class="about-me row">
+                    <div class="about-me-container">
+                        <figure class="picture-mask">
+                            <img src="Mille.png" class="picture" alt="Picture of me!">
+                        </figure>
+                        <h1 class="about-me-title">
+                            Welcome to my <span class="text-purple">E-portfolio!</span>
+                        </h1>
+                        <p class="about-me-para">
+                            This is my <strong class="text-purple">e-portfolio!</strong> 
+                            Here you will everything you need to know about me! The portfolio is not yet finalized and somethings
+                            have not yet been implemented but you can see some of my projects below!
+                        </p>
+                        <div class="about-me-links">
+                            <a href="https://www.linkedin.com/in/mille-af-rol%C3%A9n-06bb44155/" class="about-me-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.github.com/milleafrolen" class="about-me-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:mille.af.rolen@gmail.com" class="about-me-link">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="" class="about-me-link">
+                                <i class="fas fa-file-pdf"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <figure class="about-me-img-container">
+                        <img src="./assets/undraw_ukraine.svg" class="about-me-img" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="languages">
+            <h1><span class="text-purple">Languages</span> soon to be implemented...</h1>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title"> Here are some of my <span class="text-purple">projects!</span></h1>
+                    <ul class="project-list">
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_nakamoto.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        PostgreSQL, Java
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Database created for KTH course IV1351 Data Storage Paradigms
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/IV1351" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <!--<a href="www.mywebsite.com" class="project-description-link">
+                                            <i class="fas fa-link"></i>
+                                        </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_connected_world.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        Java
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Created different servers in java for the KTH course IK1203 Network and communications
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/IK1203" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <!--<a href="www.mywebsite.com" class="project-description-link">
+                                            <i class="fas fa-link"></i>
+                                        </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_programming.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        Elixir
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Different assignments solved for the KTH course ID1019 Programming 2
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/ID1019---Programming-2" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <!--<a href="www.mywebsite.com" class="project-description-link">
+                                            <i class="fas fa-link"></i>
+                                        </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="welcome-div">
-                <h1>Mille af Rolén</h1>
-                <p>Welcome to my e-portfolio!</p>
-                <hr>
+        </section>
+        <footer>
+            <div class="row footer-row">
+                <a href="#" class="footer-anchor">
+                    <figure class="footer-logo">
+                        <img src="abstraction.jpg" class="footer-logo-image" alt="sus">
+                    </figure>
+                    <span class="footer-logo-popper">
+                        Top <i class="fas fa-arrow-up"></i>
+                    </span>
+                </a>
+                <div class="footer-social-list">
+                    <a href="" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Github</a>
+                    <a href="" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">LinkedIn</a>
+                    <a href="mailto:mille.af.rolen@gmail.com" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Email</a>
+                    <a href="mailto:mille.af.rolen@gmail.com" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Resume</a>
+                </div>
+                <div class="footer-copyright">E-portfolio inspired by David Braggs</div>
             </div>
-            <div class="header-container">
-                <div class="header">
-                    <p class="cringe">General information</p>
-                    <div class="text">
-                        <p>
-                            Hello! On this website you'll find information about myself, my experiences and skills as well as my projects!
-                        </p>
-                    </div>
-                </div>
-                <div class="header">
-                    <p class="cringe"> SUS AMOGUS </p>
-                    <div class="text">
-                        Imposter amogus?? call meeting!
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-title">
-                <h1>PROJECTS</h1>
-            </div>
-            
-            <div class="project-container">
-                <div class="project">
-                    <p> PROJECT 1</p>
-                </div>
-                <div class="project">
-                    <p> PROJECT 2</p>
-                </div>
-                <div class="project">
-                    <p> PROJECT 3</p>
-                </div>
-            </div>
-
-            <a href="https://www.github.com/milleafrolen" target="_blank" id="github"><span>MIN GITHUB</span></a>
-            <br><br>
-        </div>
-
+        </footer>
     </body>
-
-
 </html>
